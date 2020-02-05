@@ -1,0 +1,22 @@
+{
+  "name": "gabriel/miniframework",
+  "description": "miniframework para criação de projetos",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Gabriel L. Garcia",
+      "email": "glggarcia2013@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "7.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Controllers\\" : "Controllers/",
+      "Models\\" : "Models/",
+      "Core\\" : "Core/"
+    }
+  }
+}
