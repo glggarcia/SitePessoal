@@ -7,14 +7,16 @@
     <title>Currículo Gabriel Garcia</title>
 
     <link rel="stylesheet" href="<?php BASE_URL;?>assets/css/master.css">
+    <link rel="stylesheet" href="<?php BASE_URL;?>assets/css/media.css">
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:400,500,700" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7302aef868.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
     <header id="menu">
-        <nav>
+        <nav class="navbar">
             <ul>
+                <li class="li__closebtn"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li>
                 <li><a href="#banner">Início</a></li>
                 <li><a href="#perfil">Perfil</a></li>
                 <li><a href="#experiencia">Experiências</a></li>
@@ -23,6 +25,7 @@
                 <li><a href="#outros">Cursos e Certificados</a></li>
             </ul>
         </nav>
+        <button class="openbtn" onclick="openNav()">&#9776;</button>
     </header>
     <?php $this->loadViewInTemplate($viewName, $viewData); ?>
     <footer>

@@ -1,0 +1,160 @@
+@media only screen and (max-width: 50em){
+    .banner h1{
+        font-size: 3rem;
+    }
+
+    .banner p{
+        color: #fafafa;
+        font-size: 2rem;
+    }
+
+    .section__titulo--main{
+        font-size: 3rem;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+
+    .section__titulo--sub{
+        margin: 0;
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+
+    .section__content--div{
+        margin: 15px 10px;
+        padding: 20px 0;
+        min-width: 100%;
+        text-align: center;
+    }
+
+    .info span {
+        width: 50%;
+        text-align: left;
+    }
+
+    .section__content p {
+        padding: 20px;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+    .section__content2--title{
+        text-align: center;
+    }
+
+    .section__div{
+        flex-direction: column;
+    }
+
+    .section__div--periodo{
+        width: 100%;
+        font-weight: 500;
+        font-size: 1.4rem;
+        border-right: none;
+        border-bottom: 1px solid #19181a;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .section__div--descricao {
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+        padding-top: 8px;
+        font-size: 1.3rem;
+    }
+
+    .mb__aux{
+        border-top: 2px solid #fafafa;
+        background-color: #e3ad74 ;
+        width: 100%;
+        text-align: center;
+        padding: 15px 0;
+        margin-top: 50px;
+    }
+
+    .mb__aux hr{
+        display: none;
+    }
+
+    .habilidades i {
+        width: 30%;
+        margin: 30px 0;
+        transition: .5s;
+        text-align: center;
+    }
+
+    .article__projetos {
+        flex-direction: column;
+    }
+
+    .article__projetos article {
+        width: 90%;
+        margin: 10px 0;
+        box-shadow: 1px 1px 1px #f7f7f7;
+    }
+
+    .navbar {
+        position: fixed !important;
+        width: 0;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #02020b;
+        overflow-x: hidden;
+        padding-top: 60px;
+        transition: .5s;
+    }
+
+    .li__closebtn {
+        display: block;
+    }
+    
+    .openbtn{
+        display: block;
+    }
+
+
+    .navbar .closebtn {
+        top: 5%;
+        right: 25px;
+        font-size: 4rem;
+        margin-left: 50px;
+        color: #eee;
+    }
+
+    .openbtn {
+        position: fixed;
+        font-size: 20px;
+        cursor: pointer;
+        background-color: #111;
+        color: white;
+        padding: 10px 15px;
+        margin: 20px 15px;
+        border: none;
+      }
+
+      .modal__div{
+        width: 80%;
+        margin: 0 auto;
+        padding: 15px;
+        background-color: #1f2833;
+        color: #fafafa;
+        font-size: 1rem;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+
+    .aviso {
+        display: block;
+        color: #d11928;
+        margin-top: 20px;
+    }
+    
+
+
+}
+
+@media only screen and (min-width: 50em) and (max-width: 71em) {
+
+}

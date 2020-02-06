@@ -39,8 +39,13 @@
             </div>
             <div class="section__content--div">
                 <h4>Sobre mim</h4>
-                <p>Bacharel em Sistemas de Informação, </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit culpa dolorem laboriosam quaerat a. Quae reprehenderit hic at qui? Excepturi error nihil quasi maxime, aliquam vero rem minus perferendis a!</p>
+                <p>
+                    Sou bacharel em Sistemas de Informação e, atualmente, trabalhando como Freelancer utilizando, principalmente, a linguagem PHP juntamente com Framework Laravel. <br>
+                    Denomino-me como um desenvolvedor PHP Júnior, buscando conhecimento e oportunidades que valham a pena, tanto para crescimento profissional quanto para contribuir, de alguma forma, através dos conhecimentos adquiridos na faculdade, cursos e durante o estágio, para o desenvolvimento de aplicações Web, Sites e afins. <br>
+                </p>
+                <p class="aux2">
+                    <i>Atualmente resido em Pouso Alegre-MG (Sul de Minas) porém estou disposto a encarar novas situações e aceitar desafios em outras cidades.</i> 
+                </p>
             </div>
 
         </article>
@@ -54,6 +59,22 @@
             </h1>
             <hr>
         </header>
+
+        <h2>Acadêmicas <hr></h2>
+        <article class="section__content2">
+            <h2 class="section__content2--title">Bacharelado Sistemas de Informação</h2>
+            <div class="section__div">
+                <div class="section__div--periodo">
+                    <p>Feveiro de 2015 - Dezembro de 2018</p>
+                </div>
+                <div class="section__div--descricao">
+                    Bacharelado em Sistemas de Informação pela FAI - Centro de Ensino Superior em Gestão, Tecnologia e Educação <br>
+                    Santa Rita do Sapucaí - MG
+                </div>
+            </div>
+        </article>
+
+        <h2 class="mb__aux">Profissionais <hr></h2>
         <article class="section__content2">
             <h2 class="section__content2--title">Freelancer - Desenvolvedor PHP</h2>
             <div class="section__div">
@@ -147,6 +168,7 @@
                             <i class="fab fa-js-square"></i>
                         </p>
                         <a class="article__projetos--link" href="http://luizpalhatro.com.br/" target="_blank">Visitar</a>
+                        <span class="aviso"> <i>Não sou responsável pela qualidade das imagens e textos!</i> </span>
                     </div>
                 </div>
             </article>
@@ -156,10 +178,13 @@
                 <div id="modal_dashboard" class="article__projetos--content">
                     <span class="close">&times;</span>
                     <div class="modal__div">
-                        <p>Nesta parte do projeto, o usuário tem acesso </p>
-                        <p>Além do site, possui uma aplicação web contendo: </p>
+                        <p>Este projeto é uma aplicação Web, com o objetivo de dispor vídeos tutoriais sobre magia. Possui um dashboard para gerenciamento dos vídeos, códigos de acesso a eles e etc. </p>
+                        <p>A aplicação Web possui:</p>
                         <ul>
-                            <li>Painel Administrativo para criação de parceiros, upload de fotos e etc.</li>
+                            <li>Painel Administrativo</li>
+                            <li>Perfil</li>
+                            <li>validação em todos os campos</li>
+                            <li>etc.</li>
                         </ul>
                         <p class="article__projetos--tecnologia">Tecnologias usadas:                 
                             <i class="fab fa-laravel "></i>
@@ -179,10 +204,6 @@
                     <span class="close">&times;</span>
                     <div class="modal__div">
                         <p>Site informativo para uma loja de móveis em Pouso Alegre. Possui um painel administrativo simples para gerenciar seus parceiros.</p>
-                        <p>Ele possui:</p>
-                        <ul>
-                            <li>Painel Administrativo para CRUD de parceiros, upload de fotos e etc.</li>
-                        </ul>
                         <p class="article__projetos--tecnologia">Tecnologias usadas:                 
                             <i class="fab fa-laravel "></i>
                             <i class="fab fa-html5 "></i>
@@ -192,6 +213,7 @@
                             <i class="fab fa-js-square"></i>
                         </p>
                         <a class="article__projetos--link" href="http://dikazza.com.br/" target="_blank">Visitar</a class="article__projetos--link">
+                        <span class="aviso"> <i>Não sou responsável pela qualidade das imagens e textos!</i> </span>
                     </div>
 
                 </div>
@@ -209,6 +231,7 @@
                             <i class="fab fa-js-square"></i>
                         </p>
                         <a class="article__projetos--link" href="http://lig.eng.br/index.html" target="_blank">Visitar</a class="article__projetos--link">
+                        <span class="aviso"> <i>Não sou responsável pela qualidade das imagens e textos!</i> </span>
                     </div>
                 </div>
             </article>

@@ -50,3 +50,16 @@ span3.onclick = function() {
     modalDashboard.style.display = "none";
 }
 
+
+/*
+    Navbar
+*/
+
+function openNav() {
+    document.getElementsByClassName("navbar")[0].style.width = "250px"
+}
+
+function closeNav() {
+    document.getElementsByClassName("navbar")[0].style.width = "0";
+}
+
