@@ -40,11 +40,11 @@
             <div class="section__content--div">
                 <h4>Sobre mim</h4>
                 <p>
-                    Sou bacharel em Sistemas de Informação e, atualmente, trabalhando como Freelancer utilizando, principalmente, a linguagem PHP juntamente com Framework Laravel. <br>
-                    Denomino-me como um desenvolvedor PHP Júnior, buscando conhecimento e oportunidades que valham a pena, tanto para crescimento profissional quanto para contribuir, de alguma forma, através dos conhecimentos adquiridos na faculdade, cursos e durante o estágio, para o desenvolvimento de aplicações Web, Sites e afins. <br>
+                    Sou bacharel em Sistemas de Informação e, no momento, trabalho como Freelancer utilizando, principalmente, a linguagem PHP juntamente com Framework Laravel. <br>
+                    Denomino-me como um desenvolvedor PHP Júnior em busca de conhecimento e oportunidades que valham a pena, tanto para crescimento profissional quanto para contribuir, de alguma forma, através de conhecimentos adquiridos na faculdade, cursos e durante o estágio, para manutenção e/ou desenvolvimento de aplicações Web, Sites e áreas correlacionadas.  <br>
                 </p>
                 <p class="aux2">
-                    <i>Atualmente resido em Pouso Alegre-MG (Sul de Minas) porém estou disposto a encarar novas situações e aceitar desafios em outras cidades.</i> 
+                    <i>Resido em Pouso Alegre-MG (Sul de Minas) porém estou disposto a encarar novas situações e aceitar desafios em outras cidades. </i> 
                 </p>
             </div>
 

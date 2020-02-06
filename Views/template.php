@@ -25,7 +25,7 @@
                 <li><a href="#outros">Cursos e Certificados</a></li>
             </ul>
         </nav>
-        <button class="openbtn" onclick="openNav()">&#9776;</button>
+        <button class="openbtn" onclick="openNav()"><i class="fas fa-bars"></i></button>
     </header>
     <?php $this->loadViewInTemplate($viewName, $viewData); ?>
     <footer>
